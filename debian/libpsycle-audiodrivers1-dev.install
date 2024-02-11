@@ -1,0 +1,3 @@
+opt/psycle/include/psycle/audiodrivers/
+opt/psycle/lib/pkgconfig/psycle-audiodrivers.pc
+opt/psycle/lib/libpsycle-audiodrivers.so

@@ -1,0 +1,93 @@
+// generate the .png image file with: dot dependencies.dot -Tpng > dependencies.png
+digraph dependencies {
+	label = "module dependencies, transitive graph"
+	//rankdir = TB
+	//rankdir = LR
+	labelloc = t
+	fontname = verdana
+	fontsize = 14
+	bgcolor = khaki3
+	//concentrate = true // line concentrations
+	ratio = auto
+	node [
+		shape = Mrecord
+		style = rounded
+		color = lemonchiffon4
+		fillcolor = lemonchiffon1
+		fontname = verdana
+		fontsize = 10
+	]
+	
+	subgraph cluster_psycle {
+		label = "psycle"
+		bgcolor = lemonchiffon1
+		
+		node [ style = filled fillcolor = lemonchiffon2 ]
+
+		"gcc";
+		"clang";
+		"msvc";
+		
+		"posix";
+		"winapi";
+
+		"x86";
+		"arm";
+		
+		"qt";
+		"mfc";
+
+		node [ style = filled fillcolor = palegoldenrod ]
+
+		"diversalis" [ label = "{ diversalis | platform description }" ];
+		"diversalis" -> "gcc";
+		"diversalis" -> "clang";
+		"diversalis" -> "msvc";
+		"diversalis" -> "posix";
+		"diversalis" -> "winapi";
+		"diversalis" -> "x86";
+		"diversalis" -> "arm";
+		
+		"universalis" [ label = "{ universalis | platform abstraction }" ];
+		"universalis" -> "diversalis";
+		"universalis" -> "gcc";
+		"universalis" -> "clang";
+		"universalis" -> "msvc";
+		"universalis" -> "posix";
+		"universalis" -> "winapi";
+		
+		"psycle-helpers" [ label = "{ psycle-helpers | math and DSP routines }" ];
+		"psycle-helpers" -> "universalis";
+		"psycle-helpers" -> "diversalis";
+	
+		"psycle-plugin-interface" [label = "{psycle-plugin-interface | interface for plugins }"];
+	
+		"psycle-core" [ label = "{ psycle-core | core engine }" ];
+		"psycle-core" -> "psycle-plugin-interface";
+		"psycle-core" -> "psycle-helpers";
+		"psycle-core" -> "universalis";
+	
+		"psycle-audiodrivers" [ label = "{ psycle-audiodrivers | output device drivers }"];
+		"psycle-audiodrivers" -> "universalis";
+	
+		"psycle-player" [ label = "{ psycle-player | simple command line player }"];
+		"psycle-player" -> "psycle-core";
+		"psycle-player" -> "psycle-audiodrivers";
+	
+		"psycle-plugins" [ label = "{ psycle-plugins | loadable modules }"];
+		"psycle-plugins" -> "psycle-plugin-interface";
+		"psycle-plugins" -> "psycle-helpers";
+
+		"qpsycle" [ label = "{ qpsycle | Qt GUI front-end }" ];
+		"qpsycle" -> "qt";
+		"qpsycle" -> "psycle-core";
+		"qpsycle" -> "psycle-audiodrivers";
+
+		"psycle-mfc" [ label = "{ psycle MFC | original psycle\nwith MFC GUI front-end }" ];
+		"psycle-mfc" -> "mfc";
+		"psycle-mfc" -> "psycle-helpers";
+		"psycle-mfc" -> "psycle-plugin-interface";
+		//"psycle-mfc" -> "psycle-core";
+		//"psycle-mfc" -> "psycle-audiodrivers";
+	}
+}

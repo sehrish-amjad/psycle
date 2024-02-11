@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP                  "splash_screen.bmp"
+
+IDB_MACHINESKIN         BITMAP                  "machine_skin.bmp"
+
+IDB_HEADERSKIN          BITMAP                  "pattern_header_skin.bmp"
+
+IDB_PARAMKNOB           BITMAP                  "TbMainKnob.bmp"
+
+IDB_MIXERSKIN           BITMAP                  "mixer_skin.bmp"
+
+IDB_KBD                 BITMAP                  "kbd.bmp"
+
+IDB_TERM                BITMAP                  "term.bmp"
+
+IDB_CONF_GENERAL        BITMAP                  "conf-general.bmp"
+
+IDB_PATTERNEDITOR       BITMAP                  "pattern-editor.bmp"
+
+IDB_HELP                BITMAP                  "help.bmp"
+
+IDB_ARROW_BACK_CIRCLE_OUTLINE BITMAP                  "arrow-back-circle-outline.bmp"
+
+IDB_ARROW_FORWARD_CIRCLE_OUTLINE BITMAP                  "arrow-forward-circle-outline.bmp"
+
+IDB_ARROW_BACK_DARK     BITMAP                  "arrow-back-dark.bmp"
+
+IDB_ARROW_FORWARD_DARK  BITMAP                  "arrow-forward-dark.bmp"
+
+IDB_SETTINGS_DARK       BITMAP                  "settings-dark.bmp"
+
+IDB_PLAY_DARK           BITMAP                  "play-dark.bmp"
+
+IDB_STOP_DARK           BITMAP                  "stop-dark.bmp"
+
+IDB_SAVE_DARK           BITMAP                  "save-dark.bmp"
+
+IDB_OPEN_DARK           BITMAP                  "open-dark.bmp"
+
+IDB_NEW_DARK            BITMAP                  "new-dark.bmp"
+
+IDB_PULSE_DARK          BITMAP                  "pulse-dark.bmp"
+
+IDB_EARTH_DARK          BITMAP                  "earth-dark.bmp"
+
+IDB_UNDO_DARK           BITMAP                  "undo-dark.bmp"
+
+IDB_REDO_DARK           BITMAP                  "redo-dark.bmp"
+
+IDB_NOTES_DARK          BITMAP                  "notes-dark.bmp"
+
+IDB_MACHINES_DARK       BITMAP                  "machines-dark.bmp"
+
+IDB_NEWMACHINE_DARK     BITMAP                  "newmachine-dark.bmp"
+
+IDB_MATRIX_DARK         BITMAP                  "matrix-dark.bmp"
+
+IDB_WIRES_DARK          BITMAP                  "wires-dark.bmp"
+
+IDB_HEART_DARK          BITMAP                  "heart-dark.bmp"
+
+IDB_TRAY_DARK           BITMAP                  "tray-dark.bmp"
+
+IDB_HEART_FULL_DARK     BITMAP                  "heart-full-dark.bpm.bmp"
+
+IDB_LOOP_DARK           BITMAP                  "loop_dark.bmp"
+
+IDB_VSPLIT_DARK         BITMAP                  "vsplit_dark.bmp"
+
+IDB_POWER_DARK          BITMAP                  "power_dark.bmp"
+
+IDB_SEARCH_DARK         BITMAP                  "search-dark.bmp"
+
+IDB_EXPAND_DARK         BITMAP                  "expand-dark.bmp"
+
+IDB_BGMAIN_1            BITMAP                  "bgmain-1.bmp"
+
+IDB_BGMAIN              BITMAP                  "bgmain.bmp"
+
+IDB_BGTOP               BITMAP                  "bgtop.bmp"
+
+IDB_ARROW_FORWARD_LIGHT BITMAP                  "arrow-forward-light.bmp"
+
+IDB_ARROW_BACK_LIGHT    BITMAP                  "arrow-back-light.bmp"
+
+IDB_MACHINES_LIGHT      BITMAP                  "machines-light.bmp"
+
+IDB_NOTES_LIGHT         BITMAP                  "notes-light.bmp"
+
+IDB_PLAY_LIGHT          BITMAP                  "play-light.bmp"
+
+IDB_OPEN_LIGHT          BITMAP                  "open-light.bmp"
+
+IDB_SAVE_LIGHT          BITMAP                  "save-light.bmp"
+
+IDB_EARTH_LIGHT         BITMAP                  "earth-light.bmp"
+
+IDB_PULSE_LIGHT         BITMAP                  "pulse-light.bmp"
+
+IDB_UNDO_LIGHT          BITMAP                  "undo-light.bmp"
+
+IDB_REDO_LIGHT          BITMAP                  "redo-light.bmp"
+
+IDB_LOOP_LIGHT          BITMAP                  "loop_light.bmp"
+
+IDB_STOP_LIGHT          BITMAP                  "stop-light.bmp"
+
+IDB_SETTINGS_LIGHT      BITMAP                  "settings-light.bmp"
+
+IDB_VSPLIT_LIGHT        BITMAP                  "vsplit_light.bmp"
+
+IDB_EXPAND_LIGHT        BITMAP                  "expand-light.bmp"
+
+IDB_WIRES_LIGHT         BITMAP                  "wires-light.bmp"
+
+IDB_MATRIX_LIGHT        BITMAP                  "matrix-light.bmp"
+
+IDB_NEWMACHINE_LIGHT    BITMAP                  "newmachine-light.bmp"
+
+IDB_EXIT_LIGHT          BITMAP                  "exit_light.bmp"
+
+IDB_EXIT_DARK           BITMAP                  "exit_dark.bmp"
+
+IDB_ARROW_DOWN_DARK     BITMAP                  "arrow-down-dark.bmp"
+
+IDB_ARROW_UP_DARK       BITMAP                  "arrow-up-dark.bmp"
+
+IDB_SEQ_DEL_TRACK       BITMAP                  "seq-del-track.bmp"
+
+IDB_SEQ_ADD_TRACK       BITMAP                  "seq-add-track.bmp"
+
+IDB_FLOAT_DARK          BITMAP                  "float-dark.bmp"
+
+IDB_FLOAT_LIGHT         BITMAP                  "float-light.bmp"
+
+IDB_FOLDER_DARK         BITMAP                  "folder-dark.bmp"
+
+IDB_FOLDER_LIGHT        BITMAP                  "folder-light.bmp"
+
+IDB_TRAIL_SIGN_DARK     BITMAP                  "trail-sign-dark.bmp"
+
+IDB_TRAIL_SIGN_LIGHT    BITMAP                  "trail-sign-light.bmp"
+
+IDB_IMAGE_DARK          BITMAP                  "image-dark.bmp"
+
+IDB_IMAGE_LIGHT         BITMAP                  "image-light.bmp"
+
+IDB_KEYPAD_DARK         BITMAP                  "keypad-dark.bmp"
+
+IDB_KEYPAD_LIGHT        BITMAP                  "keypad-light.bmp"
+
+IDB_METRONOME_DARK      BITMAP                  "metronome-dark.bmp"
+
+IDB_METRONOME_LIGHT     BITMAP                  "metronome-light.bmp"
+
+IDB_TOGGLE_DARK         BITMAP                  "toggle-dark.bmp"
+
+IDB_TOGGLE_LIGHT        BITMAP                  "toggle-light.bmp"
+
+IDB_OPTIONS_DARK        BITMAP                  "options-dark.bmp"
+
+IDB_OPTIONS_LIGHT       BITMAP                  "options-light.bmp"
+
+IDB_STEP_DARK           BITMAP                  "step-dark.bmp"
+
+IDB_STEP_LIGHT          BITMAP                  "step-light.bmp"
+
+IDB_SAMPULSE            BITMAP                  "sampulse.bmp"
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PSYCLEICON          ICON                    "icon1.ico"
+
+IDI_MACPARAM            ICON                    "macparam.ico"
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
