@@ -20,6 +20,7 @@
 // #include <psycle/helpers/math.hpp>
 #include "../dsp/src/rand.h"
 #include <cstdio>
+#include <algorithm>
 
 using namespace psycle::plugin_interface;
 // using namespace psycle::helpers::math;

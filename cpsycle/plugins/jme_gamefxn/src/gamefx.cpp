@@ -24,6 +24,7 @@
 #include <cassert>
 #include <cmath>
 #include <cstdio>
+#include <algorithm>
 
 using namespace psycle::plugin_interface;
 
